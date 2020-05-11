@@ -47,6 +47,9 @@ public class CustomView extends View {
     protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);
 
-        canvas.drawCircle(300, 300, 200, mPaint);
+//        canvas.drawCircle(300, 300, 79, mPaint);
+//        canvas.drawColor(Color.BLACK);
+
+        canvas.drawColor(Color.parseColor("#88880000"));
     }
 }
